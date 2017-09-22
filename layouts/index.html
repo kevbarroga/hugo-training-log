@@ -1,0 +1,25 @@
+{{ partial "header" . }}
+<article>
+	<header>
+		{{ partial "title" . }}
+		{{ with .Content }}{{.}}{{ end }}
+	</header>
+{{ $latestcount := .Site.Params.LatestCount | default 3 }}
+	<section>
+		<h4>{{ T "latestRun" }}</h4>
+		<ul class="no-bullet">
+			{{- range (first $latestcount (where .Pages "Section" "run").ByDate.Reverse ) -}}
+			{{ partial "li" . }}
+			{{- end -}}
+		</ul>
+	</section>
+	<section>
+		<h4>{{ T "latestWorkout" }}</h4>
+		<ul class="no-bullet">
+			{{- range (first $latestcount (where .Pages "Section" "wo").ByDate.Reverse ) -}}
+			{{ partial "li" . }}
+			{{- end -}}
+		</ul>
+	</section>
+</article>
+{{ partial "footer" . }}

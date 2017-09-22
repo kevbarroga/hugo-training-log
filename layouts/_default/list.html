@@ -1,0 +1,20 @@
+{{ partial "header" . }}
+<article>
+	<header>
+		{{ partial "title" . }}
+		{{ with .Content }}{{.}}{{ end }}
+	</header>
+	    {{ range .Pages.GroupByDate "2006" }}
+	    <h2>{{ .Key }}</h2>
+		    {{ range .Pages.GroupByDate "Jan" }}
+	<ul class="no-bullet">
+		    <h5>{{ .Key }}</h5>
+	        {{ range .Pages.ByDate.Reverse }}
+	            {{ partial "log" . }}
+	        {{ end }}
+	</ul>
+	        {{ end }}
+	    {{ end }}
+	<!-- {{ partial "paginator" . }} -->
+</article>
+{{ partial "footer" . }}
