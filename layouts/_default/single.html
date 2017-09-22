@@ -5,14 +5,14 @@
 	<nav>
 	{{ if .PrevInSection }}
 		<a class="prev-post" href="{{.PrevInSection.Permalink}}">
-			<img class="icon-text" src="/img/prev.svg"/>
+			<img class="icon-text" src="/tl/img/prev.svg"/>
 			{{- .PrevInSection.Title -}}
 		</a>
 	{{ end }}
 	{{ if .NextInSection }}
 		<a class="next-post" href="{{.NextInSection.Permalink}}">
 			{{- .NextInSection.Title -}}
-			<img class="icon-text" src="/img/next.svg"/>
+			<img class="icon-text" src="/tl/img/next.svg"/>
 		</a>
 	{{ end }}
 	</nav>
