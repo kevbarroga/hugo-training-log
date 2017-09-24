@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .TranslationBaseName "-" "." | title }}"
 date: {{ .Date }}
-tags: ["run", "short", "long", "location"]
+tags: ["run", "short", "long", "n-mi" "location"]
 draft: true
 ---
 
