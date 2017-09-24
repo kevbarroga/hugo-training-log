@@ -10,11 +10,12 @@
 	{{- else if eq .Kind "page" -}}
 	<h1>{{ .Title }}</h1>
 	<h5>
+		{{ $baseURL := .Site.BaseURL }}
 		<time datetime="{{.Date}}">{{ .Date.Format .Site.Params.DateFmt }}</time>
 		{{ with .Params.tags -}}
 		-
 			{{ range . }}
-			<a href="/tl/tags/{{.}}">{{.}}</a>
+			<a href="{{ $baseURL }}tags/{{.}}">{{.}}</a>
 			{{ end }}
 		{{- end -}}
 		{{- with .Params.workURL -}}
