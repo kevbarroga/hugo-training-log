@@ -2,6 +2,9 @@
 <article>
 	<header>{{ partial "title" . }}</header>
 	{{ .Content }}
+	{{ if isset .Params "gpxurl" }}
+	  <iframe height="405" width="590" frameborder="0" allowtransparency="true" scrolling="no" src="{{ .Params.gpxURL }}"></iframe>
+	{{ end }}
 	<nav>
 	{{ if .PrevInSection }}
 		<a class="prev-post" href="{{.PrevInSection.Permalink}}">
