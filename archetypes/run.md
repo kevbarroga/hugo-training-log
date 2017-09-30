@@ -2,6 +2,7 @@
 title: "{{ replace .TranslationBaseName "-" "." | title }}"
 date: {{ .Date }}
 tags: ["run", "short", "long", "n-mi" "location"]
+gpxURL: ""
 draft: true
 ---
 
