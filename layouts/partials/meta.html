@@ -20,10 +20,10 @@
 		{{ end }}
 
 		{{ if .Site.Params.DebugCSS }}
-		<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/normalize.css"/>
-		<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/ui.css"/>
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/normalize.css"/>
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/ui.css"/>
 		{{ else }}
-		<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/ui.min.css"/>
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/ui.min.css"/>
 		{{ end }}
 		{{ partial "style" . }}
 	</head>
