@@ -1,4 +1,4 @@
-baseURL = "https://tl.kevinbarroga.me/"				# Site's URL
+baseURL = "https://kevinbarroga-tl.netlify.com/"	# Site's URL
 title = "Training Log"								# Site's Name
 theme = "manis"
 # copyright = "&copy; 2017 Kevin Barroga"	# Copyright notice. Note: You can use HTML tag here
