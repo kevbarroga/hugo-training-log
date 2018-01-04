@@ -6,7 +6,7 @@ gpxURL: ""
 draft: true
 ---
 
-### Sat, Sep 16, 6:27 AM
+### {{ now.Format "Mon, Jan 02, 15:04:05" }}
 
 **Duration:** 02:57:42  
 **Distance:** 15.39 mi  

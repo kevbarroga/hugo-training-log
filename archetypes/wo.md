@@ -5,7 +5,7 @@ tags: ["workout", "bodyweight", "kettlebell"]
 draft: true
 ---
 
-### 2017-09-20
+### {{ now.Format "2006-01-02" }}
 
 **Pushups:** 5 x 20  
 **Pullups:** 5 x 5  
