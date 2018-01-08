@@ -16,8 +16,8 @@ draft: true
 **Duration:** 00:10:00  
 **KB kg:** 16  
 **Movement:** Swings  
-**Reps(L + R):** 5  
-**Sets:** 12  
+**Reps(L + R):** 10  
+**Sets:** 10  
 
 **KB kg:** 16  
 **Movement:** Snatch  
