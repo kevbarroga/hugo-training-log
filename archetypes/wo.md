@@ -14,9 +14,22 @@ draft: true
 ---
 
 **Duration:** 00:10:00  
-**KB kg:** 24  
-**Movement:** Goblet squats  
+**KB kg:** 16  
+**Movement:** Swings  
 **Reps(L + R):** 5  
 **Sets:** 12  
-**Total Reps:** 60  
-**Total Weight:** 1440
+
+**KB kg:** 16  
+**Movement:** Snatch  
+**Reps(L + R):** 10  
+**Sets:** 5  
+
+**KB kg:** 16  
+**Movement:** Jerks  
+**Reps(L + R):** 10  
+**Sets:** 5  
+
+**KB kg:** 16  
+**Movement:** Goblet squats  
+**Reps:** 10  
+**Sets:** 5  
